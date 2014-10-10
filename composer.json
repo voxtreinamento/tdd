@@ -1,0 +1,26 @@
+{
+    "name": "vox/treinamento-tdd",
+    "description": "Repositorio para o treinamento sobre TDD",
+    "authors": [
+        {
+            "name": "Italo Lelis",
+            "email": "italo@voxtecnologia.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vox\\Treinamento\\Tdd": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vox\\Treinamento\\Tdd\\Tests": "tests/"
+        }
+    },
+    "require": {
+        "easyframework/collections": "~2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    }
+}
